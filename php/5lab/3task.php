@@ -21,9 +21,9 @@ echo '<br>';
 
 $casted_pi = (string) $pi;
 echo "Pi casted to string is ${casted_pi}";
-$casted_pi = (int) $pi;
+$casted_pi = (int) $casted_pi;
 echo " then casted to int and got ${casted_pi}";
-$casted_pi = (boolean) $pi;
+$casted_pi = (boolean) $casted_pi;
 echo " and finally casted to boolean and got ${casted_pi}", '<br>';
 ?>
 
